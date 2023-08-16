@@ -1,4 +1,4 @@
-import { LucideProps, MessageSquare } from 'lucide-react';
+import { LucideProps, MessageSquare, User } from "lucide-react";
 
 export const Icons = {
   logo: (props: LucideProps) => (
@@ -52,4 +52,5 @@ export const Icons = {
     </svg>
   ),
   commentReply: MessageSquare,
+  user: User,
 };
